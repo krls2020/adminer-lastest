@@ -5,6 +5,6 @@ project:
 
 services:
   - hostname: adminer
-    type: php@8.3
+    type: php-apache@8.3
     enableSubdomainAccess: true
     buildFromGit: https://github.com/krls2020/adminer-lastest
